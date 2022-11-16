@@ -1,0 +1,58 @@
+button {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+}
+
+.twitter {
+  background-color: #1a8cd8;
+}
+
+.facebook {
+  background-color: #23a6f5;
+}
+
+.youtube {
+  background-color: #cc0000;
+}
+
+tr:nth-child(odd) {
+  background-color: gray;
+}
+
+tr:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+tr:hover {
+  background-color: rgb(80, 79, 79);
+}
+
+td a {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+th {
+  margin: 0;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
